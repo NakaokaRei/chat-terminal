@@ -9,6 +9,15 @@
 
 You can talk with ChatGPT on Terminal.
 
+# Installation
+Execute the following command from above.
+```
+$ git clone git@github.com:NakaokaRei/chat-terminal.git
+$ cd chat-terminal
+$ swift build -c release
+$ cp .build/release/chat /usr/local/bin/chat
+```
+
 # Usage
 ```
 $ chat $OPENAI_KEY "Enter what you want to ask ChatGPT here"
